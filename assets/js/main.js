@@ -231,3 +231,22 @@ sr.reveal(`.footer, footer__container`, {
   origin: "bottom",
   distance: "30px",
 });
+
+
+
+/**
+ * Contact Section Whatsapp send
+ */
+
+function Whatsapp() {
+  let name = document.getElementsByClassName('name_form').value
+  let email = document.getElementsByClassName('email_form').value
+  let message = document.getElementsByClassName('message_form').value
+
+  let Whatsappurl = 'https://wa.me/92256138361?text='
+  + 'Name of Customer:' + name + '%0a'
+  + 'Customer Email:' + email + '%0a'
+  + 'Message:' + message;
+
+  window.open(Whatsappurl, '_blank').focus();
+}
