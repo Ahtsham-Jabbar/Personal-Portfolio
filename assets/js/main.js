@@ -243,7 +243,7 @@ function Whatsapp() {
   let email = document.getElementsByClassName('email_form').value
   let message = document.getElementsByClassName('message_form').value
 
-  let Whatsappurl = 'https://wa.me/92256138361?text='
+  let Whatsappurl = 'https://wa.me/923104541547?text='
   + 'Name of Customer:' + name + '%0a'
   + 'Customer Email:' + email + '%0a'
   + 'Message:' + message;
